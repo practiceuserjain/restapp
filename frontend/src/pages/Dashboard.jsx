@@ -24,6 +24,10 @@ function Dashboard() {
     <div className="container mt-3">
       <h2>Tanishq's Dashboard</h2>
       <h2>Hello world..</h2>
+      <h2>My Dashboard</h2>
+      <h2>Bhushan Dashboard 2</h2>
+      <h2>Vinit Lokhande</h2>
+      <h2>Sourabh Dashboard</h2>
       <h2>{users[0].name}</h2>
 
       <table className="table">
