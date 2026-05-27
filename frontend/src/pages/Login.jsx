@@ -35,7 +35,7 @@ function Login() {
     <div className="container mt-3">
 
       <h2>Login Page</h2>
-      <p>Your login credentials are safe with us...</p>
+      <p>Your login credentials safe with us...</p>
       <form onSubmit={submit}>
         <input name="email" onChange={change} className="form-control mb-2" />
         <input name="password" type="password" onChange={change} className="form-control mb-2" />
