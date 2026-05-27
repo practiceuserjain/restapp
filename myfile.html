@@ -1,0 +1,162 @@
+<!-- <script src="myfunctions.js" type="module"></script> -->
+
+<script>
+//     let v=10
+//     console.log(typeof v)
+//     v="Hello"
+//     console.log(typeof v)
+//     v=[]
+//     console.log(typeof v)
+//     v={}
+//     console.log(typeof v)
+//     v=()=> {return "hello"}
+//     console.log(typeof v)
+//     console.log(v())
+
+//     // class A{   //constructor
+
+//     // }
+
+//     // //bable compiler
+//     // if(true)
+//     // {
+//     //     let n=10  
+//     //     var n=20
+//     // }
+   
+//     // console.log(n)
+
+//     // const b=[10,30,30,50,20]
+//     // b[2]=80
+//     // b=[] // error Assignment to constant variable.
+
+//     // b.push(50)
+//     // console.log(b)
+
+//     const p={
+//         name:"vijay",
+//     getName: function(){console.log(this.name)},
+//     getAge: function(){console.log(this.age)}
+// }
+
+// const emp={...p}
+
+//     p.name="Yogesh"
+//     console.log(emp)
+//     p.age=20
+//     console.log(p.getName())
+//     console.log(p.getAge())
+//     // p={}
+
+//     const {name,getAge,getName,age}=p
+
+//     console.log(name,age,getAge,getName)
+
+// const arr = [1,2,3];
+
+// // const arr1=[arr[0],arr[1],arr[2],4,5,6]
+// const arr1=[...arr,4,5,...arr,6,...arr]
+// // arr1.push(arr[0],arr[1],arr[2])
+
+// // arr1.splice(3,1,78,454,900)
+// console.log(arr1)
+
+
+
+// function add(n1,...n){
+// console.log(n1)
+// console.log(n)
+// }
+
+// add(6,8,2,4,6,78,2,424,3)
+// function add(n1=10){
+// console.log(n1)
+
+// }
+
+// add()
+
+
+// let n=10
+
+// let n1=n
+
+// n1=80 //immutable
+
+// let arr=[3,6,78]  //mutable
+// let arr1=[...arr] //copy arr in new blank arr and init in arr1
+// arr1[2]=90
+
+// // console.log(arr)
+// // console.log(arr1)
+
+
+// let arr=[3,6,78] 
+// let arr1=Object.assign([],arr)
+// console.log(arr1)
+
+// const p={name:"Prakash"}
+
+// let n=Object.assign({},p)
+// console.log(n)
+
+
+// class Person {  // modern js 
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+    
+//     greet() {
+//         console.log("Hello " + this.name);
+//     }
+// }
+
+// const p=new Person("Lion",23)
+// console.log(p.name)
+// console.log(p.age)
+// p.greet()
+
+// function Person(name, age) {
+   
+//         this.name = name
+//         this.age = age
+    
+    
+//     this.greet=function () {
+//         console.log("Hello " + this.name);
+//     }
+// }
+
+// const p=new Person("Lion",23)
+// console.log(p.name)
+// console.log(p.age)
+// p.greet()
+
+class Bank {
+#balance = 3000000000;
+    deposit(amount) {
+        this.#balance += amount;
+    }
+    getBal() {
+            return this.#balance;
+    }
+}
+
+const b=new Bank()
+b.deposit(10)
+
+console.log(b.getBal())
+
+
+class Child extends Parent {
+    age=10
+constructor(name) {
+   
+super(name);
+
+}
+}
+
+
+</script>
