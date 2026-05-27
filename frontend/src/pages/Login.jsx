@@ -34,7 +34,7 @@ function Login() {
   return (
     <div className="container mt-3">
 
-      <h2>Login</h2>
+      <h2>Login Page</h2>
 
       <form onSubmit={submit}>
         <input name="email" onChange={change} className="form-control mb-2" />
