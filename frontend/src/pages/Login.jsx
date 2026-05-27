@@ -40,7 +40,7 @@ function Login() {
         <input name="email" onChange={change} className="form-control mb-2" />
         <input name="password" type="password" onChange={change} className="form-control mb-2" />
 
-        <button className="btn btn-success">Login</button>
+        <button className="btn btn-success">Login Here</button>
       </form>
 
     </div>
