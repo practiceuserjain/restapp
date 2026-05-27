@@ -23,6 +23,7 @@ function Dashboard() {
   return (
     <div className="container mt-3">
       <h2>Tanishq's Dashboard</h2>
+      <h2>Kanchan here</h2>
       <h2>Hello world..</h2>
       <h2>My Dashboard</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
