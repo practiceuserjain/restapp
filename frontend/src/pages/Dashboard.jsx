@@ -22,7 +22,7 @@ function Dashboard() {
 
   return (
     <div className="container mt-3">
-      <h2>My Dashboard</h2>
+      <h2>Sourabh Dashboard</h2>
       <h2>{users[0].name}</h2>
 
       <table className="table">
