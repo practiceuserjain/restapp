@@ -6,24 +6,29 @@ function Dashboard() {
 
   const [users, setUsers] = useState([]);
 
-  const load =useCallback( async () => {
+  const load = useCallback(async () => {
     const res = await axios.get("http://localhost:5000/api/users", { withCredentials: true });
     setUsers(res.data);
-  },[]);
+  }, []);
 
   useEffect(() => {
     load();
   }, []);
 
-  const del =useCallback( async (id) => {
+  const del = useCallback(async (id) => {
     await axios.delete(`http://localhost:5000/api/user/${id}`, { withCredentials: true });
     load();
-  },[]);
+  }, []);
 
   return (
     <div className="container mt-3">
       <h2>Tanishq's Dashboard</h2>
+      <h2>Kanchan here</h2>
       <h2>Hello world..</h2>
+      <h2>My Dashboard</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatum odio voluptatibus ipsa illum ea rem repudiandae sequi 
+        ut animi fugiat accusamus incidunt maxime id, nisi quisquam autem quae vel nesciunt?</p>
       <h2>{users[0].name}</h2>
 
       <table className="table">
